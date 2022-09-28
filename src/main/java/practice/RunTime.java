@@ -38,18 +38,18 @@ public class RunTime {
 		 Process process = Runtime.getRuntime().exec("\"C:\\Program Files (x86)\\Experitest\\AppiumStudio\\AppiumStudio.exe\"");
 		 System.out.println("Pass");
 		 Thread.sleep(15000);
-		 DesiredCapabilities caps = new DesiredCapabilities();
-			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
-			caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2");
-			//caps.setCapability(MobileCapabilityType.UDID,"9TSGBIYLPN7HJJTC");
-			caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,  "com.zee5.hipi");
-			caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.zee5.hipi.presentation.splash.SplashActivity");
+		// DesiredCapabilities caps = new DesiredCapabilities();
+		//	caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
+		//	caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2");
+		//	//caps.setCapability(MobileCapabilityType.UDID,"9TSGBIYLPN7HJJTC");
+		//	caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,  "com.zee5.hipi");
+		//	caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.zee5.hipi.presentation.splash.SplashActivity");
 			//URL url = new URL("")
 //			WebDriver appiumDriver = null;
 //			WebDriverWait wait = new WebDriverWait(appiumDriver, 10);
-			AppiumDriver<MobileElement> driver = new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), caps);
+		//	AppiumDriver<MobileElement> driver = new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), caps);
 	
-			
+			//Hello
 			System.out.println("Hipi App Launch");
 			
 	}
